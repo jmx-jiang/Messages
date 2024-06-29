@@ -1,0 +1,81 @@
+h1,
+h2 {
+  font-family: Helvetica, sans-serif;
+}
+
+.divider {
+  height: 1px;
+  background-color: gray;
+}
+
+.message {
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 400px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.your-message {
+  background-color: #486df4;
+  align-self: flex-end;
+}
+
+.their-message {
+  background-color: rgb(167, 167, 167);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.material-icons {
+  font-size: 300%;
+  cursor: pointer;
+  color: black;
+}
+
+.material-icons:hover {
+  background-color: lightgrey;
+}
+
+small {
+  color: white;
+}
+
+small.description {
+  color: gray;
+  display: block;
+}
+
+.divider-big {
+  height: 5px;
+  background-color: gray;
+}
+
+.divider-small {
+  height: 0.5px;
+  background-color: black;
+}
+
+.person-info {
+  display: flex;
+  height: 110px;
+}
+
+.person-info:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+img {
+  border-radius: 50%;
+}
